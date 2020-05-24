@@ -1,6 +1,6 @@
 from flask import render_template, url_for, request, redirect
 from datetime import datetime
-from app.todo import Todo
+from app.models import Todo
 from app import app, db
 
 
